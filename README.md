@@ -1,5 +1,5 @@
 # [erinlorelle-simple](https://github.com/erinlorelle/erinlorelle-simple) - html
-This "simple" version of the php/laravel site was created afterwards as an alternative way to view the site.  PHP and Laravel are not currently required for this site, but the options are open for expansion as this site continues to evolve.
+This "simple" version of the php/laravel site was created afterwards as an alternative way to view the site.  PHP and Laravel are not currently required for this site, but the options allow room for expansion as this site evolves.
 
 ## Getting Started
 * Clone the repo: `git clone https://github.com/erinlorelle/erinlorelle-simple`
