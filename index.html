@@ -13,7 +13,8 @@
 	
 	<!-- 
 		Author:			Erin Lorelle Cook
-		Last Revised:	01/10/2020
+        Creation:       December 2018
+		Last Revised:	02/06/2022
 		Purpose:		Personal/Portfolio			
 	 -->
 
@@ -26,6 +27,16 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Google font for main header-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Google font for main subheader-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
@@ -44,6 +55,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto" style="text-shadow: 1px 1px 2px navy, 0 0 25px gold">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
                 </li>
@@ -68,22 +82,66 @@
 <header class="masthead">
     <div class="container">
         <div class="intro-text">
-            <div class="intro-lead-in">Welcome To Erin Cook's Site!</div>
-            <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+            <div class="intro-lead-in">Welcome to the portfolio of</div>
+            <div class="intro-heading text-uppercase" style="font-family: 'Spartan', sans-serif;">Erin Lorelle Cook</div>
             <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>-->
-            <p style="font-size: xx-large; color: gold;"><em>Check back frequently for new content as this site is being updated.</em></p>
+            <p style="font-size: xx-large; color: #FFC900; font-family: 'Courgette', cursive;"><em>It's Nice To Meet You!</em></p>
 			<br>
         </div>
     </div>
 </header>
 
-<!-- Portfolio Grid -->
+<!-- Skills Grid -->
+<section class="page-section" id="skills">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Skills</h2>
+            <h3 class="section-subheading text-muted">Technologies and Curriculum Vitae</h3>
+        </div>
+        <div style="float: left;padding-right: 10px;">
+            <img class="rounded-circle img-fluid" src="img/skills/code.png" alt="" width="55">
+        </div>
+        <h4 class="my-3">Languages and Platforms</h4>    
+        <p style="padding-left: 65px;"> 
+            Java, C#, PHP, Python, HTML5, CSS, JavaScript, jQuery, Android, SQL, SQLite, ABAP
+        </p>        
+        <p style="padding-left: 65px;">
+            Eclipse, VS Code, Visual Studio, SAP, MTableau, SAP, PhpStorm, IntelliJ, Android Studio, Eclipse, Oracle, MySQL, Java Spring, GitHub, Bitbucket, Gradle, WordPress.com, QuickBooks, icrosoft Office, SharePoint, Project, Teams, Outlook, Dynamics
+        </p>
+        <br><br>
+        <div style="float: left;padding-right: 10px;">
+            <img class="rounded-circle img-fluid" src="img/skills/teach.jpg" alt="" width="55">
+        </div>
+        <h4 class="my-3">Courses Taught</h4>  
+        <dl class="skillslist"> 
+            <dt>Using Information Technology</dt>
+                <dd>MS Outlook, Word, Excel, Access</dd>
+                <dd>Computer Hardware, Security Basics, Networking Basics</dd>
+            <dt>Introduction to Computer Science I</dt>
+                <dd>Java, OOP fundamentals and practices, exception handling, validation: Sept 2020 - Dec 2021</dd>
+                <dd>C#, OOP, OOP fundamentals and practices, exception handling, validation: May 2022 - current</dd>
+            <dt>Introduction to Computer Science II</dt>
+                <dd>Java, class creation, collections: Sept 2020 - Dec 2021</dd>
+                <dd>C#, class creation, collections: May 2022 - current</dd>
+            <dt>Fundamentals of Web Design & Development</dt>
+                <dd>HTML, CSS, design and development concepts</dd>
+            <dt>Database Fundamentals</dt>
+                <dd >SQL, Oracle, database creation, queries</dd>
+            <dt>Advanced Database</dt>
+                <dd>PL/SQL, noSQL, OOP, introduction to multidimensional databases (i.e., MongoDB)</dd>
+            <dt>Enterprise Programming</dt>
+                <dd>SAP using ABAP, OOP, structure and table type creation, ABAP database </dd>
+        </dl>
+    </div>
+</section>
+
+<!-- Projects Grid -->
 <section class="bg-light" id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading text-uppercase">Projects</h2>
-                <h3 class="section-subheading text-muted">Portfolio</h3>
+                <h3 class="section-subheading text-muted">Web Projects and Programs</h3>
             </div>
         </div>
         <div class="row">
@@ -174,7 +232,6 @@
         </div>
     </div>
 </section>
-
 
 <!-- Document Grid -->
 <section style="background-color: rgb(243, 243, 243);" id="document">
@@ -283,7 +340,6 @@
     </div>
 </section>
 
-
 <!-- About -->
 <section id="about">
     <div class="container">
@@ -306,7 +362,7 @@
                                 <h4 class="subheading">Moved to Bristol, VA</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">In January 2000, I transferred to Virginia Intermont College and moved to the beautiful Blue Ridge Mountains!</p>
+                                <p class="text-muted">In January 2000, transferred to Virginia Intermont College and moved to the beautiful Blue Ridge Mountains</p>
                             </div>
                         </div>
                     </li>
@@ -320,7 +376,7 @@
                                 <h4 class="subheading">Earned Bachelor in Science</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">I earned my undergraduate degree in Psychology in 2002 from Virginia Intermont College!</p>
+                                <p class="text-muted">Graduated Virginia Intermont College with a Bachelor of Science in Psychology in 2002</p>
                             </div>
                         </div>
                     </li>
@@ -332,12 +388,12 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>2002 - 2017</h4>
-                                <h4 class="subheading">Built up experience in purchasing and project coordination!</h4>
+                                <h4 class="subheading">Carrer as an IT Purchasing and Project Coordinator!</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">I was a purchasing coordinator for two IT companies in the TriCities area which included
+                                <p class="text-muted">Purchasing coordinator for two IT companies in the TriCities area which included
                                     server configuration and inventory management.
-                                    I also gained experience as a project coordinator over large home improvement projects!</p>
+                                    Experience as a project coordinator over large home improvement projects</p>
                             </div>
                         </div>
                     </li>
@@ -351,15 +407,13 @@
                                 <h4 class="subheading">Started Career Change</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">I wanted to learn more about computers and was ready for a fresh start and a new career.
-                                    I signed up for a couple computer programming courses at East Tennessee State University and found out
-                                    I was passionate about computer science!</p>
+                                <p class="text-muted">Interest in software develop grew as IT purchasing became more software related.  Enrolled in a couple computer programming courses at East Tennessee State University and found my passion in programming</p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/upeCert.jpg" alt="">
+                            <img class="rounded-circle img-fluid" src="img/about/upe.jpg" alt="">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -367,7 +421,7 @@
                                 <h4 class="subheading">Inducted in UPE Honor Society</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">I was inducted into Upsilon Pi Epsilon (UPE) International Honor Society for the Computing and Information Disciplines!</p>
+                                <p class="text-muted">Inducted into Upsilon Pi Epsilon (UPE) International Honor Society for the Computing and Information Disciplines</p>
                             </div>
                         </div>
                     </li>
@@ -381,7 +435,21 @@
                                 <h4 class="subheading">Earned Master of Science</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">I earned my graduate degree in Computer Science.  I graduated with honors in the Information Technology concentration!</p>
+                                <p class="text-muted">Graduated East Tennessee State University with a Masters Degree in Computer and Information Science.  I graduated with honors in the Information Technology concentration</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/etsulogo.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>January 2021</h4>
+                                <h4 class="subheading">Employed as Lecturer at East Tennessee State University</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Teaching as a Graduate Assistant revealed the joy of teaching.  Taught full-time as an adjunct for a year post graduation. Was hired as a full-time lecturer in January 2021 </p>
                             </div>
                         </div>
                     </li>
@@ -396,9 +464,8 @@
         </div>
     </div>
 </section>
-
 <!-- Hobbies -->
-<section id="hobbies">
+<section id="hobbies" class="bg-light">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -413,7 +480,7 @@
               <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
             </span>
                 <h4 class="service-heading">Woodworking</h4>
-                <p class="text-muted">I enjoy building things I can use around the house.  Stay tuned for links to pictures of the below projects.</p>
+                <p class="text-muted">I enjoy building with my hands and have made these useful items for my home.</p>
                 <p class="text-muted" style="list-style-type: none;">
                     <!--<a href="" style="text-decoration: none;">Platform bed frames</a>-->
                     Platform bed frames
@@ -431,7 +498,7 @@
               <i class="fas fa-music fa-stack-1x fa-inverse"></i>
             </span>
                 <h4 class="service-heading">Music</h4>
-                <p class="text-muted">Playing musical instruments is a great way to clear my mind.  I can play the below instruments, but my piano and saxophone are my favorite.  I'm new at banjo and guitar, but they're still fun to play.</p>
+                <p class="text-muted">Playing musical instruments is a great way to clear my mind.  I've been playing paino since I was five.  Piano and saxophone are my favorite.  I'm still learning banjo and guitar, although fun to play.</p>
                 <p class="text-muted" style="list-style-type: none;">
                     Piano
                     <br>Saxophone
@@ -446,7 +513,7 @@
               <i class="fas fa-book fa-stack-1x fa-inverse"></i>
             </span>
                 <h4 class="service-heading">Reading</h4>
-                <p class="text-muted">I read a wide variety of literature, but my favorites are fantasy, urban fantasy, and mystery.  Below are some of my favorite authors.</p>
+                <p class="text-muted">My favorites are mystery, urban fantasy, and science fiction.  I also enjoy reading history.  Below are some of my favorite authors.</p>
                 <dl class="text-muted">
                     <dt>Jim Butcher</dt>
                     <dd>The Dresden Files</dd>
@@ -454,8 +521,8 @@
                     <dd>Stephanie Plum Novels</dd>
                     <dt>Piers Anthony</dt>
                     <dd>Xanth Novels</dd>
-                    <dt>Terry Brooks</dt>
-                    <dd>Magic Kingdom of Landover Series</dd>
+                    <dt>Michael Connelly</dt>
+                    <dd>Bosch</dd>
                 </dl>
             </div>
         </div>
@@ -515,7 +582,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright">Copyright &copy; Erin Lorelle Cook 2018-2020</span>
+                <span class="copyright">Copyright &copy; Erin Lorelle Cook 2018-2022</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">

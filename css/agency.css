@@ -711,3 +711,24 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     text-align: center;
     background-color: #fff;
 }
+
+
+.skills-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #fed136;
+}
+
+.skillslist{
+  padding-left: 65px;
+  font-weight: normal;
+
+}
